@@ -6,7 +6,6 @@ const Person = require('../src/Person')
 
 
 describe('Airport object', () => {
-	jest.setTimeout(1000)
 	const testAirport = new Airport1("DFW")
 	const testPlane = new Plane('912')
 	const testPerson = new Person('Damon')
